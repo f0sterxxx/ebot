@@ -230,7 +230,7 @@ else
 	unzip master.zip
 	mv eBot-CSGO-master ebot-csgo
 	cd ebot-csgo
-	curl --silent --location https://deb.nodesource.com/setup_0.12 | bash -
+	curl --silent --location https://deb.nodesource.com/setup_14.x | bash -
 	
 	apt-get install -y nodejs
 	if [ $? != 0 ]; then
